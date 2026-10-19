@@ -1,0 +1,12 @@
+# Lower bounds only. After you confirm it runs, pin exact versions with: pip freeze
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+plotly>=5.22
+requests>=2.32
+python-dotenv>=1.0
+holidays>=0.50
+tqdm>=4.66
+imageio-ffmpeg>=0.5
+jupyterlab>=4.2

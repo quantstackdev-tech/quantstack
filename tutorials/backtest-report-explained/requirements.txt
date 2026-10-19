@@ -1,0 +1,6 @@
+# Lower bounds only. After you confirm it runs, pin exact versions with: pip freeze
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+jupyterlab>=4.2
