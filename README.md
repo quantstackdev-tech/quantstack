@@ -28,7 +28,7 @@ Each playlist, the series inside it, and where each series stands, in viewing or
 | Playlist | Series | Status |
 |---|---|---|
 | **Foundations**<br>Start Here: Algorithmic Trading Foundations | **S001** Start Here | In production |
-|  | **S011** Jupyter Explained | In production |
+|  | **S011** Jupyter Explained ([code](tutorials/Jupyter Explained/Jupyter_Explained.ipynb)) | In production |
 |  | **S012** Python Basics From Zero | In production |
 |  | **S020** Markets 101 | In production |
 |  | **S021** Brokers, Orders and Costs | Coming soon |
@@ -53,7 +53,7 @@ Each playlist, the series inside it, and where each series stands, in viewing or
 |  | **S055** Testing Your Backtester | Coming soon |
 |  | **S052** Backtest Pitfalls | Coming soon |
 |  | **S054** Metrics Deep Dive | Coming soon |
-|  | **S051** Backtest Report Explained ([code](tutorials/How-to-Read-a-Backtest-Report/Backtest_Report_Explained.ipynb)) | 5 of 6 videos published, rest in production |
+|  | **S051** Backtest Report Explained ([code](tutorials/How-to-Read-a-Backtest-Report/Backtest_Report_Explained.ipynb)) | 6 of 6 videos published |
 | **Validation, Risk and Portfolios**<br>Is It Real? Validation, Risk and Portfolios | **S070** Is It Real? Validation and Overfitting | Coming soon |
 |  | **S071** Edge, Expectancy and Sample Size | Coming soon |
 |  | **S072** Robustness Testing Toolkit | Coming soon |
