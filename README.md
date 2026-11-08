@@ -5,48 +5,95 @@
 
 **Channel:** https://www.youtube.com/@QuantStackDev
 
-## Start here (learning order)
+**New to algorithmic trading?** Start with *Start Here: Algorithmic Trading From Zero* (coming soon), then follow the [tutorials table](#tutorials) from the first row to the last.
 
-The channel teaches in a fixed order. Each row is a folder in this repo, and each folder is self-contained (own README, `requirements.txt`, notebook).
+**Want to see strategies tested?** Go to the [strategy audits](#strategy-audits).
 
-| # | Series | Folder | You need | Status |
-|---|---|---|---|---|
-| 1 | What Algorithmic Trading Is, and Isn't (1 video) | no code | nothing | in production |
-| 2 | Jupyter Explained (6 parts) | [`tutorials/S011-jupyter-explained/`](tutorials/S011-jupyter-explained/) | nothing | in production |
-| 3 | Python Basics From Zero (18 parts) | [`tutorials/S012-python-basics-from-zero/`](tutorials/S012-python-basics-from-zero/) | nothing | in production |
-| 4 | Markets 101 (14 parts) | no code (concept series) | nothing | in production |
-| 5 | Backtest Report Explained (6 parts) | [`tutorials/S051-backtest-report-explained/`](tutorials/S051-backtest-report-explained/) | nothing | Part 1 published |
+## Table of contents
 
-Strategy audits (apply what the tutorials teach to real strategies):
+Coming soon means planned, not promised. A "code" link appears only when the folder exists. The tutorials table lists the Core track only.
 
-| Audit | Folder | Needs market data? |
+### Strategy audits
+
+Each audit is one video, tested in Python with real costs. A new row is added here when an audit is published.
+
+| Playlist | Video | Status |
 |---|---|---|
-| Breakout strategies (7 + 1 control) | [`audits/breakout-strategy-audit/`](audits/breakout-strategy-audit/) | Yes (free OANDA practice account) |
-| Trend and moving-average strategies | coming soon (`audits/trend-ma-audit/`) | Yes (same account) |
+| **Trading Strategy Audits (Python Backtests)** | T3-01 · Seven breakout strategies compared ([code](audits/t3-sessions-structure-price-action/t3-01-seven-breakouts/)) | [Watch the video](https://www.youtube.com/watch?v=OBccM0x5CHg) |
 
+### Tutorials
 
+Each playlist, the series inside it, and where each series stands, in viewing order. Published series link to their YouTube playlist; the rest say "In production" or "Coming soon" (0 of 45 series fully published, 5 of 562 videos).
 
-## Which folder first?
-
-Brand new to code: `tutorials/S011-jupyter-explained`, then `S012-python-basics-from-zero`. Already code: `tutorials/S051-backtest-report-explained` needs no account or data, then the audits.
-
+| Playlist | Series | Status |
+|---|---|---|
+| **Foundations**<br>Start Here: Algorithmic Trading Foundations | **S001** Start Here | In production |
+|  | **S011** Jupyter Explained | In production |
+|  | **S012** Python Basics From Zero | In production |
+|  | **S020** Markets 101 | In production |
+|  | **S021** Brokers, Orders and Costs | Coming soon |
+|  | **S022** Reading Charts From Zero | Coming soon |
+|  | **S023** Why Most Traders Lose | Coming soon |
+|  | **S024** MetaTrader 5 Basics | Coming soon |
+|  | **S025** Trade Accounting by Hand | Coming soon |
+| **Python and Data**<br>Python and Data for Traders | **S013** Python Intermediate | Coming soon |
+|  | **S014** NumPy for Finance | Coming soon |
+|  | **S015** pandas for Traders | Coming soon |
+|  | **S016** Charts for Traders (matplotlib and plotly) | Coming soon |
+|  | **S040** Market Data Done Right | Coming soon |
+|  | **S045** FX Data and Costs in Code | Coming soon |
+|  | **S017** Git and GitHub for Traders | Coming soon |
+| **Maths and Statistics**<br>Maths and Statistics for Quant Traders | **S030** Maths You Need: Algebra to Calculus | Coming soon |
+|  | **S031** Probability From Zero | Coming soon |
+|  | **S032** Statistics for Traders | Coming soon |
+|  | **S036** Financial Maths | Coming soon |
+|  | **S035** Time Series Fundamentals | Coming soon |
+| **Backtesting**<br>Backtesting Done Right: Build, Test and Trust | **S056** Indicators and Signals From Scratch | Coming soon |
+|  | **S050** Build a Backtester From Scratch | Coming soon |
+|  | **S055** Testing Your Backtester | Coming soon |
+|  | **S052** Backtest Pitfalls | Coming soon |
+|  | **S054** Metrics Deep Dive | Coming soon |
+|  | **S051** Backtest Report Explained ([code](tutorials/05-backtesting/s051-backtest-report-explained/)) | 5 of 6 videos published, rest in production |
+| **Validation, Risk and Portfolios**<br>Is It Real? Validation, Risk and Portfolios | **S070** Is It Real? Validation and Overfitting | Coming soon |
+|  | **S071** Edge, Expectancy and Sample Size | Coming soon |
+|  | **S072** Robustness Testing Toolkit | Coming soon |
+|  | **S073** Honest Verdicts: Putting a Number on Luck | Coming soon |
+|  | **S080** Risk Management Fundamentals | Coming soon |
+|  | **S081** Position Sizing | Coming soon |
+|  | **S082** Drawdown and Ruin Simulation | Coming soon |
+|  | **S090** Portfolios of Strategies | Coming soon |
+| **Live Trading and Engineering**<br>Live Trading and Trading System Engineering | **S100** Going Live with MT5 and Python | Coming soon |
+|  | **S101** Execution Quality and Slippage | Coming soon |
+|  | **S102** Trading System Operations | Coming soon |
+| **Machine Learning**<br>Machine Learning for Trading, Honestly Tested | **S110** Machine Learning From Zero | Coming soon |
+|  | **S111** ML for Trading: Foundations | Coming soon |
+|  | **S115** Model Validation for Finance | Coming soon |
+|  | **S112** Meta-Labeling and ML Filters | Coming soon |
+| **Capstones**<br>Capstones: Build a Complete System | **S180** Capstone 1: A Simple, Honest System | Coming soon |
+|  | **S181** Capstone 2: A Validated Rule-Based System | Coming soon |
+| **Failure Files and Shorts**<br>Failure Files | **S190** Failure Files | Coming soon |
 
 ## How the repo is organised
 
 ```
-tutorials/   one folder per teaching series, named by series ID (S011, S012, S051 ...)
-audits/      one folder per strategy audit
+audits/        strategy audits, one folder per tier, one folder per audit inside it
+tutorials/     concept and coding series, grouped by YouTube home-tab section
+checkpoints/   projects you build alone at the end of a stage   (created when the first one ships)
+capstones/     complete systems, judged honestly                (created when the first one ships)
+failure-files/ short experiments that test popular claims       (created when the first one ships)
+docs/          conventions for naming and project folders
 ```
 
-Folder names start with the series ID used on the channel, so video S051-04 is Part 4 of `S051-backtest-report-explained`.
+Folder names start with the roadmap ID (`s051-`, `t3-01-`), so a series ID in the table leads straight to its code. The numbers inside `tutorials/` match the channel's home-tab sections. Naming rules are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
+
+Each project folder is self-contained: its own README, `requirements.txt` and notebook. Run it from inside that folder.
 
 ## Setup (any project folder)
 
 ```bash
 git clone <this repo>
 cd <project folder>
-python -m venv .venv
-.venv\Scripts\activate          # Windows. On Linux/macOS: source .venv/bin/activate
+python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab
 ```
