@@ -5,30 +5,50 @@
 
 **Channel:** https://www.youtube.com/@QuantStackDev
 
-## What's here
+## Start here (learning order)
 
-| Folder | What it is | Needs market data? |
+The channel teaches in a fixed order. Each row is a folder in this repo, and each folder is self-contained (own README, `requirements.txt`, notebook).
+
+| # | Series | Folder | You need | Status |
+|---|---|---|---|---|
+| 1 | What Algorithmic Trading Is, and Isn't (1 video) | no code | nothing | in production |
+| 2 | Jupyter Explained (6 parts) | [`tutorials/S011-jupyter-explained/`](tutorials/S011-jupyter-explained/) | nothing | in production |
+| 3 | Python Basics From Zero (18 parts) | [`tutorials/S012-python-basics-from-zero/`](tutorials/S012-python-basics-from-zero/) | nothing | in production |
+| 4 | Markets 101 (14 parts) | no code (concept series) | nothing | in production |
+| 5 | Backtest Report Explained (6 parts) | [`tutorials/S051-backtest-report-explained/`](tutorials/S051-backtest-report-explained/) | nothing | Part 1 published |
+
+Strategy audits (apply what the tutorials teach to real strategies):
+
+| Audit | Folder | Needs market data? |
 |---|---|---|
-| [`audits/breakout-strategy-audit/`](audits/breakout-strategy-audit/) | 7 YouTube breakout strategies + 1 control, one framework, 7 USD majors, realistic costs | Yes (free OANDA practice account) |
-| [`tutorials/backtest-report-explained/`](tutorials/backtest-report-explained/) | 6-part series: how to read every number in a backtest report, each metric coded and checked by hand | No |
+| Breakout strategies (7 + 1 control) | [`audits/breakout-strategy-audit/`](audits/breakout-strategy-audit/) | Yes (free OANDA practice account) |
+| Trend and moving-average strategies | coming soon (`audits/trend-ma-audit/`) | Yes (same account) |
 
-New to this? Start with `tutorials/backtest-report-explained`: it needs no account or data.
+The full plan, with every series and video, is in [`ROADMAP.md`](ROADMAP.md).
+
+## Which folder first?
+
+Brand new to code: `tutorials/S011-jupyter-explained`, then `S012-python-basics-from-zero`. Already code: `tutorials/S051-backtest-report-explained` needs no account or data, then the audits.
+
+All setup assumes **Windows** (the channel is recorded on Windows). Linux and macOS usually work, but only Windows is tested.
 
 ## How the repo is organised
 
 ```
-audits/       strategy audits (one folder per video or series)
-tutorials/    concept and coding tutorials
+tutorials/   one folder per teaching series, named by series ID (S011, S012, S051 ...)
+audits/      one folder per strategy audit
+ROADMAP.md   every planned series and its status
 ```
 
-Each project folder is self-contained: its own README, `requirements.txt` and notebook. Run it from inside that folder.
+Folder names start with the series ID used on the channel, so video S051-04 is Part 4 of `S051-backtest-report-explained`.
 
 ## Setup (any project folder)
 
 ```bash
 git clone <this repo>
 cd <project folder>
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate          # Windows. On Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
