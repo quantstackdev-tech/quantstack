@@ -28,7 +28,7 @@ Each playlist, the series inside it, and where each series stands, in viewing or
 | Playlist | Series | Status |
 |---|---|---|
 | **Foundations**<br>Start Here: Algorithmic Trading Foundations | **S001** Start Here | In production |
-|  | **S011** Jupyter Explained ([code](tutorials/Jupyter Explained/Jupyter_Explained.ipynb)) | In production |
+|  | **S011** Jupyter Explained ([code](tutorials/Jupyter-Explained/Jupyter_Explained.ipynb)) | In production |
 |  | **S012** Python Basics From Zero | In production |
 |  | **S020** Markets 101 | In production |
 |  | **S021** Brokers, Orders and Costs | Coming soon |
