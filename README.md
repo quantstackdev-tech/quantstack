@@ -19,7 +19,7 @@ Each audit is one video, tested in Python with real costs. A new row is added he
 
 | Playlist | Video | Status |
 |---|---|---|
-| **Trading Strategy Audits (Python Backtests)** | T3-01 · Seven breakout strategies compared ([code]([audits/t3-sessions-structure-price-action/t3-01-seven-breakouts/](https://github.com/quantstackdev-tech/quantstack/blob/3d8f6a8ec5de86cf45f6480da21e31f2991b1d34/audits/breakout-strategy-audit/Breakout_Strategy_Framework.ipynb))) | [Watch the video](https://www.youtube.com/watch?v=OBccM0x5CHg) |
+| **Trading Strategy Audits (Python Backtests)** | T3-01 · Seven breakout strategies compared ([code](audits/breakout-strategy-audit/Breakout_Strategy_Framework.ipynb)) | [Watch the video](https://www.youtube.com/watch?v=OBccM0x5CHg) |
 
 ### Tutorials
 
