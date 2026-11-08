@@ -2,7 +2,7 @@
 
 A six-part series on reading a backtest report: what each number means, how to code it, and how it can mislead you. One notebook, ending in a single `backtest_report()` function that returns the whole report.
 
-**Part 1 Video:** https://www.youtube.com/watch?v=5KLvNsivv1s&t=5s
+**Playlist link:** [https://www.youtube.com/watch?v=5KLvNsivv1s&t=5s](https://www.youtube.com/playlist?list=PLJbtokAJz9KY)
 
 | Part | Topic |
 |---|---|
