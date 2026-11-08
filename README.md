@@ -53,7 +53,7 @@ Each playlist, the series inside it, and where each series stands, in viewing or
 |  | **S055** Testing Your Backtester | Coming soon |
 |  | **S052** Backtest Pitfalls | Coming soon |
 |  | **S054** Metrics Deep Dive | Coming soon |
-|  | **S051** Backtest Report Explained ([code](tutorials/How to Read a Backtest Report — Every Metric Explained (Python)/Backtest_Report_Explained.ipynb)) | 5 of 6 videos published, rest in production |
+|  | **S051** Backtest Report Explained ([code](tutorials/How-to-Read-a-Backtest-Report/Backtest_Report_Explained.ipynb)) | 5 of 6 videos published, rest in production |
 | **Validation, Risk and Portfolios**<br>Is It Real? Validation, Risk and Portfolios | **S070** Is It Real? Validation and Overfitting | Coming soon |
 |  | **S071** Edge, Expectancy and Sample Size | Coming soon |
 |  | **S072** Robustness Testing Toolkit | Coming soon |
