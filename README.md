@@ -24,20 +24,18 @@ Strategy audits (apply what the tutorials teach to real strategies):
 | Breakout strategies (7 + 1 control) | [`audits/breakout-strategy-audit/`](audits/breakout-strategy-audit/) | Yes (free OANDA practice account) |
 | Trend and moving-average strategies | coming soon (`audits/trend-ma-audit/`) | Yes (same account) |
 
-The full plan, with every series and video, is in [`ROADMAP.md`](ROADMAP.md).
+
 
 ## Which folder first?
 
 Brand new to code: `tutorials/S011-jupyter-explained`, then `S012-python-basics-from-zero`. Already code: `tutorials/S051-backtest-report-explained` needs no account or data, then the audits.
 
-All setup assumes **Windows** (the channel is recorded on Windows). Linux and macOS usually work, but only Windows is tested.
 
 ## How the repo is organised
 
 ```
 tutorials/   one folder per teaching series, named by series ID (S011, S012, S051 ...)
 audits/      one folder per strategy audit
-ROADMAP.md   every planned series and its status
 ```
 
 Folder names start with the series ID used on the channel, so video S051-04 is Part 4 of `S051-backtest-report-explained`.
